@@ -1,0 +1,26 @@
+<h2>
+  Lista de productos
+</h2>
+
+
+
+
+<div class="row">
+
+<div class="card col-sm-4" style="width: 18rem;" *ngFor="let product of products">
+  <img src="{{product.image}}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">{{product.name}}</h5>
+    <p class="card-text">{{product.description}}</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">Precio: {{product.price}}</li>
+    <li class="list-group-item">Disponible: {{product.amount}}</li>
+  </ul>
+  <div class="card-body">
+    <a href="#" class="card-link">Agregar al carrito</a>
+    <a href="#" class="card-link">Comprar</a>
+  </div>
+</div>
+
+</div>
