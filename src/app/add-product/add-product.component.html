@@ -1,0 +1,28 @@
+<h1 class="text-center">
+  Agrega un producto
+
+</h1>
+
+<form (ngSubmit)="onSubmit()">
+  <div class="form-group">
+    <label for="name">Nombre</label>
+    <input type="text" class="form-control" id="name" name="name" placeholder="Digite el nombre" [(ngModel)]="product.name">
+  </div>
+  <div class="form-group">
+    <label for="description">Descripción</label>
+    <input type="text" class="form-control" id="description" name="description" placeholder="Digite la descripción" [(ngModel)]="product.description">
+  </div>
+  <div class="form-group">
+    <label for="price">Precio</label>
+    <input type="number" class="form-control" id="price" name="price" placeholder="Digite el precio" [(ngModel)]="product.price">
+  </div>
+  <div class="form-group">
+    <label for="amount">Cantidad</label>
+    <input type="number" class="form-control" id="amount" name="amount" placeholder="Digite la cantidad" [(ngModel)]="product.amount">
+  </div>
+  <div class="form-group">
+    <label for="image">Imagen</label>
+    <input type="text" class="form-control" id="image" name="image" placeholder="Digite el link de la imagen" [(ngModel)]="product.image">
+  </div>
+  <button class="btn btn-primary">Agregar</button>
+</form>

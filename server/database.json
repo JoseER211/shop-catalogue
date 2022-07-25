@@ -159,6 +159,22 @@
       "description": "This is product 20",
       "amount": 200,
       "image": "https://picsum.photos/200?random=20"
+    },
+    {
+      "name": "Product 21",
+      "description": "This is product 21",
+      "price": 2100,
+      "amount": 210,
+      "image": "https://picsum.photos/200?random=21",
+      "id": 21
+    },
+    {
+      "name": "Product 22",
+      "description": "this is product 22",
+      "price": 2200,
+      "amount": 220,
+      "image": "https://picsum.photos/200?random=22",
+      "id": 22
     }
   ]
 }
